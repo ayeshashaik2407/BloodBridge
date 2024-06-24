@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-photo/patient-getting-chemotherapy-treatment_23-2149261072.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 8% auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #eb344f;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+}
+
+.form-group label[for="smokingYes"],
+.form-group label[for="smokingNo"],
+.form-group label[for="alcoholYes"],
+.form-group label[for="alcoholNo"],
+.form-group label[for="genderMale"],
+.form-group label[for="genderFemale"],
+.form-group label[for="genderOther"] {
+    display: inline;
+    margin-right: 10px;
+}
+
+.submit-button {
+    background-color: #eb344f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #c92d42;
+}
+.error-message {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
