@@ -34,7 +34,7 @@ public class Reciever extends HttpServlet {
 		// TODO Auto-generated method stub
 		String jdbcUrl = "jdbc:mysql://localhost:3307/project";
 		String username = "root";
-		String password = "Ayshu@2003";
+		String password = "password";
 		response.setContentType("text/html;charset=UTF-8");
 		String namep=request.getParameter("name");
 		String agep=request.getParameter("age");
