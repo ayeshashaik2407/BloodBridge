@@ -36,7 +36,7 @@ public class Login extends HttpServlet {
 		// TODO Auto-generated method stub
 		String jdbcUrl = "jdbc:mysql://localhost:3307/project";
 		String username = "root";
-		String password = "Ayshu@2003";
+		String password = "Password" ;//Enter your password
 		response.setContentType("text/html;charset=UTF-8");
 		String usernameu=request.getParameter("username");
 		String passwordu=request.getParameter("password");
